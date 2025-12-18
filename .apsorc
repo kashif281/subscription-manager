@@ -8,13 +8,7 @@
       "created_at": false,
       "updated_at": false,
       "fields": [
-        {
-          "name": "customer_id",
-          "type": "integer",
-          "nullable": false,
-          "isIndex": true,
-          "isUnique": false
-        },
+    
         {
           "name": "end_date",
           "type": "date",
@@ -36,23 +30,7 @@
           "isIndex": false,
           "isUnique": false
         }
-      ],
-      "indexes": [
-        {
-          "fields": [
-            "customer_id"
-          ],
-          "unique": false
-        },
-        {
-          "fields": [
-            "plan_id",
-            "customer_id"
-          ],
-          "unique": false
-        }
-      ],
-      "uniques": []
+      ]
     }
   ],
   "relationships": []
